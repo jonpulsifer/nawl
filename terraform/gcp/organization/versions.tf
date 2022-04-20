@@ -15,7 +15,7 @@ provider "google-beta" {
   project = local.project
   region  = local.region
   zone    = local.zone
-  version = "~> 3.20"
+  version = "~> 4.0"
 }
 
 terraform {
