@@ -8,7 +8,7 @@ provider "google" {
   project = local.project
   region  = local.region
   zone    = local.zone
-  version = "~> 4.0"
+  version = "~> 5.0"
 }
 
 provider "google-beta" {
